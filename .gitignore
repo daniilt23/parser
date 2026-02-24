@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+**/.DS_Store
+
+src/appsettings.local.json
+
+*.db
+*.db-shm
+*.db-wal
+logs/
