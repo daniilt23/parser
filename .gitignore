@@ -2,7 +2,7 @@
 **/obj/
 **/.DS_Store
 
-appsettings.json
+./src/appsettings.json
 
 *.db
 *.db-shm
