@@ -2,6 +2,8 @@
 **/obj/
 **/.DS_Store
 
+appsettings.json
+
 src/appsettings.local.json
 
 *.db
