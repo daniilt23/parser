@@ -130,7 +130,6 @@ public sealed class ScrapingService
         var htmlDocument = new HtmlDocument();
         htmlDocument.LoadHtml(html);
 
-        // Только то, что в README
         document.Title = CleanText(htmlDocument.DocumentNode.SelectSingleNode("//title")?.InnerText);
         document.H1 = CleanText(htmlDocument.DocumentNode.SelectSingleNode("//h1")?.InnerText);
         document.Links = ExtractLinks(htmlDocument, pageUri).ToList();
